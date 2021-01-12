@@ -13,3 +13,60 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 951)
 
 
+Started GET "/" for ::1 at 2021-01-13 01:06:31 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 291)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/sudarshan/Twitter-Project/public/packs
+[Webpacker] Hash: 415a948d492e21802f43
+Version: webpack 4.46.0
+Time: 4696ms
+Built at: 13/01/2021 1:06:41 am
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d5a3c3b4dce84b5eb605.js    125 KiB  application  [emitted] [immutable]  application
+js/application-d5a3c3b4dce84b5eb605.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d5a3c3b4dce84b5eb605.js js/application-d5a3c3b4dce84b5eb605.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 9643.1ms | Allocations: 14319)
+Completed 200 OK in 9661ms (Views: 9647.8ms | ActiveRecord: 0.0ms | Allocations: 17380)
+
+
+Started GET "/home" for ::1 at 2021-01-13 01:11:06 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 112)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2977)
+Completed 200 OK in 11ms (Views: 9.7ms | Allocations: 3762)
+
+
+Started GET "/profile" for ::1 at 2021-01-13 01:11:16 +0530
+Processing by PagesController#profile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 0.7ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 2921)
+Completed 200 OK in 17ms (Views: 14.8ms | Allocations: 3485)
+
+
+Started GET "/explore" for ::1 at 2021-01-13 01:11:21 +0530
+Processing by PagesController#explore as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/explore.html.erb within layouts/application
+  Rendered pages/explore.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2921)
+Completed 200 OK in 12ms (Views: 10.5ms | Allocations: 3485)
+
+
