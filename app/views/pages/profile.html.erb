@@ -5,40 +5,36 @@
 		</div>
 	</div>
 </div>
-
-
-
-
 <div class="row">
 	<div class="col-md-3">
 	  <div class="card">
         <div class="card-body">
-            <p>stats</p>
+            <p>profile</p>
         </div>
       </div>
 	</div>
+
 	<div class="col-md-6">
+		<%= render '/components/post_form' %>
+		<% for @p in @posts %>
 		<div class="card">
         <div class="card-body">
-		<p>feed</p>
+		<p><%= @p.content %></p>
 	</div>
 </div>
+<% end %>
 	</div>
-	<div class="col-md-3">
+		<div class="col-md-3">
 		<div class="card">
         <div class="card-body">
-		<p>about</p>
+		<p>who to follow</p>
 	    </div>
         </div>
-	</div>
-</div>
-
-<div class="row mt-4">
-<div class="col-md-3 ml-auto">
-		<div class="card">
+        <div class="card">
           <div class="card-body">
 		    <p>trends</p>
 	      </div>
         </div>
+	</div>
 </div>
-</div>
+

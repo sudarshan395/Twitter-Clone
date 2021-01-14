@@ -9383,3 +9383,1710 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 3545)
 
 
+Started GET "/home" for ::1 at 2021-01-14 21:40:36 +0530
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 397)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.9ms | Allocations: 439)
+  Rendered layouts/_nav.html.erb (Duration: 17.9ms | Allocations: 7283)
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 10465)
+Completed 200 OK in 41ms (Views: 28.1ms | ActiveRecord: 1.3ms | Allocations: 15095)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 21:40:45 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 2.6ms | Allocations: 306)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.7ms | Allocations: 1103)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3158)
+Completed 200 OK in 22ms (Views: 14.1ms | ActiveRecord: 0.5ms | Allocations: 4968)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 21:41:42 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 0.7ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.7ms | Allocations: 375)
+  Rendered layouts/_nav.html.erb (Duration: 4.8ms | Allocations: 1610)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3935)
+Completed 200 OK in 20ms (Views: 15.6ms | ActiveRecord: 0.3ms | Allocations: 5801)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 21:44:23 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 1.2ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.1ms | Allocations: 374)
+  Rendered layouts/_nav.html.erb (Duration: 7.0ms | Allocations: 1609)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3935)
+Completed 200 OK in 22ms (Views: 18.4ms | ActiveRecord: 0.4ms | Allocations: 5823)
+
+
+Started GET "/home" for ::1 at 2021-01-14 21:44:25 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.2ms | Allocations: 1118)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 3562)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.2ms | Allocations: 4151)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 21:44:31 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.9ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 6.8ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 2888)
+Completed 200 OK in 21ms (Views: 15.5ms | ActiveRecord: 0.5ms | Allocations: 3906)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 21:47:03 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 0.8ms | Allocations: 167)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.0ms | Allocations: 374)
+  Rendered layouts/_nav.html.erb (Duration: 6.5ms | Allocations: 1609)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 3935)
+Completed 200 OK in 20ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 5818)
+
+
+Started GET "/home" for ::1 at 2021-01-14 21:47:07 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.4ms | Allocations: 1118)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 3568)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms | Allocations: 4157)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 21:47:15 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered pages/profile.html.erb within layouts/application (Duration: 0.2ms | Allocations: 37)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.1ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 8.4ms | Allocations: 1211)
+  Rendered layout layouts/application.html.erb (Duration: 18.0ms | Allocations: 3459)
+Completed 200 OK in 24ms (Views: 18.9ms | ActiveRecord: 0.6ms | Allocations: 4479)
+
+
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePosts (20210114162718)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "posts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "content" text, "user_id" integer NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, CONSTRAINT "fk_rails_5b5ddfd518"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE INDEX "index_posts_on_user_id" ON "posts" ("user_id")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE INDEX "index_posts_on_user_id_and_created_at" ON "posts" ("user_id", "created_at")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210114162718"]]
+  [1m[36mTRANSACTION (24.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/home" for ::1 at 2021-01-14 22:56:52 +0530
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 450)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.1ms | Allocations: 439)
+  Rendered layouts/_nav.html.erb (Duration: 17.3ms | Allocations: 6896)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 10148)
+Completed 200 OK in 40ms (Views: 26.0ms | ActiveRecord: 1.2ms | Allocations: 14653)
+
+
+Started GET "/home" for ::1 at 2021-01-14 22:57:00 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.2ms | Allocations: 1121)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2907)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.1ms | Allocations: 3367)
+
+
+Started GET "/home" for ::1 at 2021-01-14 22:57:02 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.7ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 10.7ms | Allocations: 1679)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 3465)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.2ms | Allocations: 3925)
+
+
+Started GET "/" for ::1 at 2021-01-14 22:57:06 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 104)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.2ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2959)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.2ms | Allocations: 3537)
+
+
+Started GET "/home" for ::1 at 2021-01-14 22:57:07 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 8.1ms | Allocations: 1153)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 3323)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.2ms | Allocations: 3784)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 22:57:11 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:16
+  Rendered pages/profile.html.erb within layouts/application (Duration: 9.1ms | Allocations: 1499)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.1ms | Allocations: 1104)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 4353)
+Completed 200 OK in 27ms (Views: 17.2ms | ActiveRecord: 1.3ms | Allocations: 7101)
+
+
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "post content"], ["user_id", 1], ["created_at", "2021-01-14 17:45:47.844119"], ["updated_at", "2021-01-14 17:45:47.844119"]]
+  [1m[36mTRANSACTION (19.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" /* loading for inspect */ LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Create (1.0ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "New Post!"], ["user_id", 2], ["created_at", "2021-01-14 17:51:27.227975"], ["updated_at", "2021-01-14 17:51:27.227975"]]
+  [1m[36mTRANSACTION (21.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2021-01-14 23:25:15 +0530
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 378)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.9ms | Allocations: 439)
+  Rendered layouts/_nav.html.erb (Duration: 20.0ms | Allocations: 6896)
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 10340)
+Completed 200 OK in 39ms (Views: 28.8ms | ActiveRecord: 0.7ms | Allocations: 14832)
+
+
+Started GET "/" for ::1 at 2021-01-14 23:25:15 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 6.3ms | Allocations: 1121)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 2907)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 3366)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:25:17 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 139)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 8.3ms | Allocations: 1682)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 3571)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.2ms | Allocations: 4161)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:25:20 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:16
+  Rendered pages/profile.html.erb within layouts/application (Duration: 9.5ms | Allocations: 2993)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 2.7ms | Allocations: 1104)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 6393)
+Completed 200 OK in 33ms (Views: 20.2ms | ActiveRecord: 1.8ms | Allocations: 9141)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:26:47 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 3.7ms | Allocations: 925)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.0ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 7.2ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 4691)
+Completed 200 OK in 25ms (Views: 17.9ms | ActiveRecord: 0.9ms | Allocations: 6623)
+
+
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/home" for ::1 at 2021-01-14 23:29:28 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 137)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 8.2ms | Allocations: 1147)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 3418)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.2ms | Allocations: 4002)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:29:48 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.0ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2891)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms | Allocations: 3346)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:29:51 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 2.8ms | Allocations: 740)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 11.4ms | Allocations: 1518)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 4026)
+Completed 200 OK in 25ms (Views: 20.6ms | ActiveRecord: 0.7ms | Allocations: 5117)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:29:54 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 26.6ms | Allocations: 1543)
+  Rendered layout layouts/application.html.erb (Duration: 33.5ms | Allocations: 3329)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.2ms | Allocations: 3797)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:30:24 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 145)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.7ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 4.5ms | Allocations: 1613)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3917)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.2ms | Allocations: 5225)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:30:28 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 2.2ms | Allocations: 917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.2ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3768)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.4ms | Allocations: 4979)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:30:30 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 9.8ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 2891)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.2ms | Allocations: 3346)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:30:51 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 143)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.0ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 6.2ms | Allocations: 1613)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 3915)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms | Allocations: 5223)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:30:54 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:10:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.0ms | Allocations: 917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 6.7ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 4323)
+Completed 200 OK in 25ms (Views: 19.9ms | ActiveRecord: 0.8ms | Allocations: 5537)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:30:58 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.9ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 9.5ms | Allocations: 1579)
+  Rendered layout layouts/application.html.erb (Duration: 16.8ms | Allocations: 3364)
+Completed 200 OK in 20ms (Views: 17.9ms | ActiveRecord: 0.2ms | Allocations: 3819)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:32:41 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 14.6ms | Allocations: 4038)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 4107)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.0ms | Allocations: 5387)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     7:       </div>
+     8: 	</div>
+     9: 	<div class="col-md-6">
+    10: 		<% for @p in @posts %>
+    11: 		<div class="card">
+    12:         <div class="card-body">
+    13: 		<p><%= @p.content %></p>
+  
+app/views/pages/home.html.erb:10
+Started GET "/home" for ::1 at 2021-01-14 23:34:15 +0530
+Processing by PagesController#home as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/models/post.rb:5:in `block in <class:Post>'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 7.7ms | Allocations: 2861)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 379)
+  Rendered layouts/_nav.html.erb (Duration: 14.2ms | Allocations: 5875)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 10877)
+Completed 200 OK in 36ms (Views: 28.5ms | ActiveRecord: 1.8ms | Allocations: 13916)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:34:22 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 739)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.1ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3590)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.4ms | Allocations: 4115)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:34:24 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 5.0ms | Allocations: 917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 6.2ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 4310)
+Completed 200 OK in 32ms (Views: 21.7ms | ActiveRecord: 1.2ms | Allocations: 5688)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:34:26 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.7ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 4147)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 0.6ms | Allocations: 5233)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:34:26 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 739)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 7.0ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 3590)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.3ms | Allocations: 4115)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:35:37 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.8ms | Allocations: 901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 12.0ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 4667)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 0.5ms | Allocations: 6046)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:37:54 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 906)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 4.1ms | Allocations: 1609)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 4674)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 0.3ms | Allocations: 6054)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:38:08 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.0ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 5.0ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 4667)
+Completed 200 OK in 21ms (Views: 19.4ms | ActiveRecord: 0.4ms | Allocations: 6040)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:38:23 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.5ms | Allocations: 900)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 5.5ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4666)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.4ms | Allocations: 6039)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:38:34 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 900)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.1ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 6.2ms | Allocations: 1609)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4668)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.3ms | Allocations: 6041)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:38:48 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.7ms | Allocations: 901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.9ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 7.5ms | Allocations: 1609)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 4668)
+Completed 200 OK in 25ms (Views: 22.2ms | ActiveRecord: 0.5ms | Allocations: 6041)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:39:23 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 901)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 3.9ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4667)
+Completed 200 OK in 18ms (Views: 15.8ms | ActiveRecord: 0.3ms | Allocations: 6040)
+
+
+Started GET "/explore" for ::1 at 2021-01-14 23:45:52 +0530
+Processing by PagesController#explore as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/models/post.rb:5:in `block in <class:Post>'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/explore.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/explore.html.erb:2
+  Rendered pages/explore.html.erb within layouts/application (Duration: 2.1ms | Allocations: 890)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 4.5ms | Allocations: 1631)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 4679)
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 0.8ms | Allocations: 6681)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:50:15 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2942)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 139)
+  Rendered layouts/_nav.html.erb (Duration: 3.7ms | Allocations: 1245)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 5975)
+Completed 200 OK in 34ms (Views: 15.2ms | ActiveRecord: 2.2ms | Allocations: 14689)
+
+
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY "posts"."created_at" DESC LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/home" for ::1 at 2021-01-14 23:53:39 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 924)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 374)
+  Rendered layouts/_nav.html.erb (Duration: 5.8ms | Allocations: 2054)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 5143)
+Completed 200 OK in 21ms (Views: 18.6ms | ActiveRecord: 0.4ms | Allocations: 6528)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:53:42 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 739)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.5ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 4160)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.5ms | Allocations: 4686)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:53:44 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 6.1ms | Allocations: 920)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.7ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 6.2ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 3771)
+Completed 200 OK in 25ms (Views: 19.6ms | ActiveRecord: 1.2ms | Allocations: 5515)
+
+
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPost Create (0.9ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "Next"], ["user_id", 2], ["created_at", "2021-01-14 18:24:50.507345"], ["updated_at", "2021-01-14 18:24:50.507345"]]
+  [1m[36mTRANSACTION (21.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/home" for ::1 at 2021-01-14 23:55:06 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:10
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 752)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 7.1ms | Allocations: 1552)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 4057)
+Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 0.4ms | Allocations: 4591)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:55:16 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.8ms | Allocations: 760)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.7ms | Allocations: 1104)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 4197)
+Completed 200 OK in 32ms (Views: 24.1ms | ActiveRecord: 0.9ms | Allocations: 5816)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:55:49 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 2.8ms | Allocations: 937)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.1ms | Allocations: 376)
+  Rendered layouts/_nav.html.erb (Duration: 9.8ms | Allocations: 1612)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 4708)
+Completed 200 OK in 27ms (Views: 20.4ms | ActiveRecord: 0.6ms | Allocations: 7174)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-14 23:57:06 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.0ms | Allocations: 936)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.3ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 5.6ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4703)
+Completed 200 OK in 23ms (Views: 16.0ms | ActiveRecord: 0.7ms | Allocations: 7175)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:58:50 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:20
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 916)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 6.6ms | Allocations: 1610)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 5267)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.4ms | Allocations: 6644)
+
+
+Started GET "/home" for ::1 at 2021-01-14 23:59:54 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:20
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 915)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 1.0ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 5.4ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 4682)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 0.5ms | Allocations: 6057)
+
+
+Started GET "/home" for ::1 at 2021-01-15 00:00:00 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:20
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.3ms | Allocations: 752)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.2ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 3603)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.4ms | Allocations: 4129)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 00:00:02 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.5ms | Allocations: 932)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.1ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 3783)
+Completed 200 OK in 26ms (Views: 16.7ms | ActiveRecord: 0.8ms | Allocations: 6076)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 00:00:05 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1278)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.3ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 4173)
+Completed 200 OK in 20ms (Views: 15.1ms | ActiveRecord: 0.6ms | Allocations: 5803)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 00:00:06 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:18
+  Rendered pages/profile.html.erb within layouts/application (Duration: 2.6ms | Allocations: 760)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.2ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 3611)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 0.5ms | Allocations: 5229)
+
+
+Started GET "/home" for ::1 at 2021-01-15 00:00:08 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:20
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 752)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 6.0ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3603)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.4ms | Allocations: 4128)
+
+
+Started GET "/home" for ::1 at 2021-01-15 00:02:00 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:17
+  Rendered pages/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 917)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 4.0ms | Allocations: 1609)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 4685)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.2ms | Allocations: 6063)
+
+
+Started GET "/home" for ::1 at 2021-01-15 00:02:51 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 910)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.7ms | Allocations: 373)
+  Rendered layouts/_nav.html.erb (Duration: 3.8ms | Allocations: 1608)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 4677)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.3ms | Allocations: 6056)
+
+
+Started GET "/" for ::1 at 2021-01-15 00:59:26 +0530
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 2.0ms | Allocations: 291)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.8ms | Allocations: 439)
+  Rendered layouts/_nav.html.erb (Duration: 21.0ms | Allocations: 6896)
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 9624)
+Completed 200 OK in 81ms (Views: 57.7ms | ActiveRecord: 2.7ms | Allocations: 13621)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 00:59:29 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 13.5ms | Allocations: 5091)
+  Rendered pages/profile.html.erb within layouts/application (Duration: 15.3ms | Allocations: 5542)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 5620)
+Completed 500 Internal Server Error in 43ms (ActiveRecord: 2.6ms | Allocations: 11488)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resource_name' for #<ActionView::Base:0x00000000008d68>
+Did you mean?  resolve_asset):
+    1: <h2>Edit <%= resource_name.to_s.humanize %></h2>
+    2: 
+    3: <%= form_for(@newPost) do |f| %>
+    4: 
+  
+app/views/components/_post_form.html.erb:1
+app/views/pages/profile.html.erb:18
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:00:32 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 26.7ms | Allocations: 5341)
+  [1m[36mPost Load (2.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 33.7ms | Allocations: 6522)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.9ms | Allocations: 349)
+  Rendered layouts/_nav.html.erb (Duration: 5.5ms | Allocations: 1585)
+  Rendered layout layouts/application.html.erb (Duration: 43.8ms | Allocations: 10144)
+Completed 200 OK in 54ms (Views: 45.4ms | ActiveRecord: 2.4ms | Allocations: 12716)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 01:00:36 +0530
+  
+ActionController::RoutingError (uninitialized constant PostsController):
+  
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:00:41 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 1.1ms | Allocations: 398)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 3.7ms | Allocations: 1217)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 2.7ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4041)
+Completed 200 OK in 18ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 5758)
+
+
+Started GET "/home" for ::1 at 2021-01-15 01:00:44 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.0ms | Allocations: 923)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.2ms | Allocations: 1130)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 4331)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.6ms | Allocations: 4984)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:00:47 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 0.8ms | Allocations: 397)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1229)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 3.4ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 4148)
+Completed 200 OK in 18ms (Views: 11.7ms | ActiveRecord: 0.6ms | Allocations: 6292)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:46:31 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 2.2ms | Allocations: 526)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1363)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered layouts/_nav.html.erb (Duration: 4.2ms | Allocations: 1219)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 4348)
+Completed 200 OK in 40ms (Views: 16.7ms | ActiveRecord: 1.2ms | Allocations: 14129)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 01:46:37 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>"hi"}, "commit"=>"Add Post"}
+Redirected to http://localhost:3000
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 3012)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/posts_controller.rb:13:in `block in create'
+app/controllers/posts_controller.rb:9:in `create'
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:46:48 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 1.2ms | Allocations: 397)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1216)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 6.1ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4039)
+Completed 200 OK in 20ms (Views: 14.1ms | ActiveRecord: 0.8ms | Allocations: 5736)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 01:46:50 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>""}, "commit"=>"Add Post"}
+Redirected to http://localhost:3000
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1341)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/posts_controller.rb:13:in `block in create'
+app/controllers/posts_controller.rb:9:in `create'
+Started POST "/posts" for ::1 at 2021-01-15 01:47:40 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>""}, "commit"=>"Add Post"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:8:in `create'
+Redirected to http://localhost:3000
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 1.1ms | Allocations: 6352)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/posts_controller.rb:13:in `block in create'
+app/controllers/posts_controller.rb:9:in `create'
+Started POST "/posts" for ::1 at 2021-01-15 01:49:55 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>""}, "commit"=>"Add Post"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/posts_controller.rb:8:in `create'
+Redirected to http://localhost:3000
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.5ms | Allocations: 6353)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/posts_controller.rb:13:in `block in create'
+app/controllers/posts_controller.rb:9:in `create'
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/home" for ::1 at 2021-01-15 01:56:43 +0530
+Processing by PagesController#home as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/models/post.rb:5:in `block in <class:Post>'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 784)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 139)
+  Rendered layouts/_nav.html.erb (Duration: 17.0ms | Allocations: 5571)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 8124)
+Completed 200 OK in 33ms (Views: 26.0ms | ActiveRecord: 2.3ms | Allocations: 9454)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:56:49 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 2.1ms | Allocations: 495)
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 9.6ms | Allocations: 1795)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 3.8ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 4713)
+Completed 200 OK in 29ms (Views: 20.9ms | ActiveRecord: 1.2ms | Allocations: 6590)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 01:56:50 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>""}, "commit"=>"Add Post"}
+Redirected to http://localhost:3000
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1349)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/posts_controller.rb:13:in `block in create'
+app/controllers/posts_controller.rb:9:in `create'
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:57:20 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 1.2ms | Allocations: 397)
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1216)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.6ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 6.1ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 4039)
+Completed 200 OK in 19ms (Views: 14.4ms | ActiveRecord: 0.6ms | Allocations: 5737)
+
+
+Started GET "/home" for ::1 at 2021-01-15 01:57:23 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (Duration: 3.4ms | Allocations: 752)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 5.3ms | Allocations: 1149)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 4052)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.4ms | Allocations: 4581)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 01:57:27 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 1.8ms | Allocations: 397)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1216)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 8.3ms | Allocations: 1123)
+  Rendered layout layouts/application.html.erb (Duration: 26.2ms | Allocations: 4527)
+Completed 200 OK in 36ms (Views: 26.7ms | ActiveRecord: 1.1ms | Allocations: 6229)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 01:57:32 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>""}, "commit"=>"Add Post"}
+Redirected to http://localhost:3000
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1343)
+
+
+  
+ArgumentError (wrong number of arguments (given 2, expected 1)):
+  
+app/controllers/posts_controller.rb:13:in `block in create'
+app/controllers/posts_controller.rb:9:in `create'
+Started POST "/posts" for ::1 at 2021-01-15 02:03:07 +0530
+  
+SyntaxError (/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+				f.html = { redirect_to "", notice: "Post Created" } 
+				                       ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+...to "", notice: "Post Created" } 
+...                              ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+				f.html = { redirect_to "", notice: "Error: Post Not S...
+				                       ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+...tice: "Error: Post Not Saved" } 
+...                              ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/user/sud183" for ::1 at 2021-01-15 02:03:13 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 1.7ms | Allocations: 526)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1363)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 113)
+  Rendered layouts/_nav.html.erb (Duration: 5.3ms | Allocations: 1219)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 4369)
+Completed 200 OK in 46ms (Views: 14.3ms | ActiveRecord: 3.7ms | Allocations: 14998)
+
+
+Started GET "/home" for ::1 at 2021-01-15 02:03:16 +0530
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/home.html.erb:15
+  Rendered pages/home.html.erb within layouts/application (Duration: 5.2ms | Allocations: 936)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.8ms | Allocations: 1102)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 4187)
+Completed 200 OK in 24ms (Views: 17.0ms | ActiveRecord: 0.5ms | Allocations: 4724)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 02:03:19 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 2.3ms | Allocations: 397)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1216)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 6.8ms | Allocations: 1524)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 4478)
+Completed 200 OK in 30ms (Views: 21.6ms | ActiveRecord: 0.8ms | Allocations: 6211)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 02:03:21 +0530
+  
+SyntaxError (/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+				f.html = { redirect_to "", notice: "Post Created" } 
+				                       ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+...to "", notice: "Post Created" } 
+...                              ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+				f.html = { redirect_to "", notice: "Error: Post Not S...
+				                       ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+...tice: "Error: Post Not Saved" } 
+...                              ^
+/home/sudarshan/Twitter-Project/app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/posts_controller.rb:11: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:11: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:13: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/posts_controller.rb:13: syntax error, unexpected '}', expecting `end'
+app/controllers/posts_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2021-01-15 02:05:01 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/layouts/_nav.html.erb:1
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 139)
+  Rendered layouts/_nav.html.erb (Duration: 12.6ms | Allocations: 6411)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 8307)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 1.0ms | Allocations: 9694)
+
+
+Started GET "/" for ::1 at 2021-01-15 02:05:02 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 3.6ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2891)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms | Allocations: 3343)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 02:05:04 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 2.9ms | Allocations: 508)
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 7.6ms | Allocations: 1360)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 2.7ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 4297)
+Completed 200 OK in 37ms (Views: 15.5ms | ActiveRecord: 2.9ms | Allocations: 9517)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 02:05:06 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>""}, "commit"=>"Add Post"}
+Redirected to http://localhost:3000
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms | Allocations: 1650)
+
+
+Started GET "/" for ::1 at 2021-01-15 02:05:06 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.4ms | Allocations: 1108)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2895)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.2ms | Allocations: 3355)
+
+
+Started GET "/" for ::1 at 2021-01-15 02:07:15 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 38)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/views/layouts/_nav.html.erb:1
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.4ms | Allocations: 139)
+  Rendered layouts/_nav.html.erb (Duration: 17.5ms | Allocations: 6409)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 8235)
+Completed 200 OK in 25ms (Views: 22.7ms | ActiveRecord: 2.0ms | Allocations: 9496)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 02:07:18 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 1.6ms | Allocations: 508)
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1357)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.2ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 3.6ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 4278)
+Completed 200 OK in 35ms (Views: 14.7ms | ActiveRecord: 1.8ms | Allocations: 9514)
+
+
+Started POST "/posts" for ::1 at 2021-01-15 02:07:22 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"content"=>"test"}, "commit"=>"Add Post"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:9:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/posts_controller.rb:11:in `block in create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:11:in `block in create'
+  [1m[36mPost Create (4.5ms)[0m  [1m[32mINSERT INTO "posts" ("content", "user_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["content", "test"], ["user_id", 2], ["created_at", "2021-01-14 20:37:22.318681"], ["updated_at", "2021-01-14 20:37:22.318681"]]
+  ↳ app/controllers/posts_controller.rb:11:in `block in create'
+  [1m[36mTRANSACTION (22.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/posts_controller.rb:11:in `block in create'
+Redirected to http://localhost:3000
+Completed 302 Found in 62ms (ActiveRecord: 27.3ms | Allocations: 8126)
+
+
+Started GET "/" for ::1 at 2021-01-15 02:07:22 +0530
+Processing by PagesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.5ms | Allocations: 111)
+  Rendered layouts/_nav.html.erb (Duration: 4.5ms | Allocations: 1106)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2892)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.2ms | Allocations: 3352)
+
+
+Started GET "/user/sud183" for ::1 at 2021-01-15 02:07:42 +0530
+Processing by PagesController#profile as HTML
+  Parameters: {"id"=>"sud183"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:11:in `profile'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = ? LIMIT ?[0m  [["username", "sud183"], ["LIMIT", 1]]
+  ↳ app/controllers/pages_controller.rb:17:in `profile'
+  Rendering layout layouts/application.html.erb
+  Rendering pages/profile.html.erb within layouts/application
+  Rendered components/_post_form.html.erb (Duration: 2.2ms | Allocations: 397)
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE (user_id = 2) ORDER BY "posts"."created_at" DESC[0m
+  ↳ app/views/pages/profile.html.erb:19
+  Rendered pages/profile.html.erb within layouts/application (Duration: 7.8ms | Allocations: 1240)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_nav.html.erb:1
+  Rendered layouts/_nav_user.html.erb (Duration: 0.3ms | Allocations: 96)
+  Rendered layouts/_nav.html.erb (Duration: 4.1ms | Allocations: 1087)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 4634)
+Completed 200 OK in 29ms (Views: 21.2ms | ActiveRecord: 0.8ms | Allocations: 6333)
+
+

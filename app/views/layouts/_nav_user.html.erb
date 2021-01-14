@@ -24,7 +24,7 @@
           <%= current_user.username %>
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li class="dropdown-item" href="#"><a>Profile</a></li>
+          <li><a class="dropdown-item" href="/user/<%= current_user.username %>">Profile</a></li>
           <div class="dropdown-divider"></div>
           <li class="dropdown-item" href="#">Help</li>
           <div class="dropdown-divider"></div>
