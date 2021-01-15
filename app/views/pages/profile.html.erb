@@ -1,40 +1,70 @@
+
 <div class="row">
-	<div class="col-md-12">
-		<div class="jumbotron">
-			<%= @username %>
-		</div>
-	</div>
-</div>
-<div class="row">
-	<div class="col-md-3">
-	  <div class="card">
-        <div class="card-body">
-            <p>profile</p>
-        </div>
+    <div class="col-md-3">
+      <div class="col-sm-12" style="margin-top: -20px;">
+            <img src="/profile.png" height="100px" width="100px" class="rounded-img">
       </div>
-	</div>
+      <div class="col-sm-12">
+        <h3 style="font-weight: bold;"><%= params[:id] %></h3>
+        <p>
+          Sample profile <a href="http://www.youtube.com">http://www.youtube.com</a>
+        </p>
+      </div>
+    </div>
 
 	<div class="col-md-6">
 		<%= render '/components/post_form' %>
-		<% for @p in @posts %>
-		<div class="card">
-        <div class="card-body">
-		<p><%= @p.content %></p>
-	</div>
-</div>
-<% end %>
-	</div>
-		<div class="col-md-3">
-		<div class="card">
-        <div class="card-body">
-		<p>who to follow</p>
+			<% for @p in @posts %>
+		<div class="card post-panel">
+        <div class="card-body row">
+        	<div class="col-sm-1">
+        	<img src="/profile.png" class="rounded-img" height="50px" width="50px">
+        	</div>
+        	<div class="col-sm-11">
+        	<p class="post-title"><span class="post-owner"><%= User.find(@p.user_id).username %></span> <span class="post-creation"> - <%= @p.created_at.to_formatted_s(:short) %></span></p>
+            <p class="post-content"><%= @p.content %></p>
+        	</div>
+        	<div class="col-sm-12">
+        	<p class="post-links">
+        		<i class="fa fa-comments g-links" aria-hidden="true"></i>
+        		<i class="fa fa-retweet g-links" aria-hidden="true"></i>
+        	    <i class="fa fa-heart g-links" aria-hidden="true"></i>
+        	    <i class="fa fa-ellipsis-h g-links" aria-hidden="true"></i>
+        	    <a href="" style="font-size: 12px;">View Conversation</a>
+        	</p>
+        	</div>
 	    </div>
         </div>
-        <div class="card">
-          <div class="card-body">
-		    <p>trends</p>
-	      </div>
+<% end %>
+
+<div class="card post-panel">
+        <div class="card-body row">
+        <div class="col-sm-12">
+        	<center>
+        		<a href="#top"><p style="opacity: .8; color: grey;">Back to Top <i class="fa fa-arrow-up" aria-hidden="true"></i></p></a>
+        	</center>
+        </div>
+	    </div>
         </div>
 	</div>
+
+	<div class="col-md-3">
+	<%= render '/components/follow_button', :user => User.find_by_username(params[:id]) %>
+		 
+        <div class="card">
+
+          <div class="card-body">
+
+             <h5 style="color: grey; font-size: 125%;">Trends</h5>
+              <a href="">#Trend #1</a><br>
+                <span style="color: grey;">31k Posts</span><br><br>
+              <a href="">#Trend #2</a><br>
+                <span style="color: grey;">25k Posts</span><br><br>
+              <a href="">#Trend #3</a><br>
+                <span style="color: grey;">16k Posts</span><br><br>
+          </div>
+         
+        </div>
+    </div>
 </div>
 

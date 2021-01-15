@@ -3,15 +3,40 @@
   <head>
     <title>Twitter</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-<%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+<%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <%= render '/layouts/nav' %>
+   <% if params[:id] != nil %>
+  <% @url = '/user/' + params[:id] %>
+  <% if current_page?(@url) %>
+    <img src="/bg.jpg" class="profile-banner">
+    <div class="row">
+      <div class="col-sm-12" style="background-color: white;">
+        <div class="container">
+          <div class="col-sm-3">&nbsp;</div>
+          <div class="col-sm-6" style="margin-top: 5px">
+            <div class="col-sm-2" style="font-size: 100%; opacity: 0.7;">POSTS<br>
+                    <h6 style="color: #0084B4; font-size: 150%;"><%= User.find_by_username(params[:id]).posts.count %></h6></div>
+            <div class="col-sm-2" style="font-size: 100%; opacity: 0.7;">FOLLOWERS<br>
+                    <h6 style="color: #0084B4; font-size: 150%;"><%= User.find_by_username(params[:id]).followers.count %></h6></div>
+            <% if user_signed_in? %>
+              <div class="col-sm-8" style="text-align: right; margin-top: 5px;"><a href="/users/edit"><li type="button" class="btn btn-default" style="color: grey; opacity: 0.8; font-weight: bold;">EDIT PROFILE</li></a></div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+<% end %>
+    
+  
     <div class="container">
       <span class="notice"><%= notice %></span>
       <span class="alert"><%= alert %></span>

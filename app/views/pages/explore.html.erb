@@ -1,9 +1,73 @@
-<div class="col-md-6">
-	<% for @p in @posts %>
-	<div class="card">
-    <div class="card-body">
-	<p><%= @p.content %></p>
+<div class="row">
+    <div class="col-xs-3">
+        
+        <div class="card">
+          <div class="card-body">
+            <h5 style="color: grey; font-size: 125%;">Explore</h5>
+            <p style="opacity: 0.5; font-size: 90%;">
+              This page aggregates posts from ALL users. This means that you can find new people to follow,
+              and your posts will also appear here so other people can see your opinions and interests and follow you
+              if they chose.
+            </p>
+          </div>
+        </div>
+       <div class="card">
+          <div class="card-body">
+             <h5 style="color: grey; font-size: 125%;">Trends</h5>
+              <a href="">#Trend #1</a><br>
+                <span style="color: grey;">31k Posts</span><br><br>
+              <a href="">#Trend #2</a><br>
+                <span style="color: grey;">25k Posts</span><br><br>
+              <a href="">#Trend #3</a><br>
+                <span style="color: grey;">16k Posts</span><br><br>
+          </div>
+        </div>
+    </div>
+	<div class="col-md-6">
+		 <%= render '/components/post_form' %><% if user_signed_in? %> <br> <% end %> <br>
+
+		<% for @p in @posts %>
+		<div class="card post-panel">
+        <div class="card-body row">
+        	<div class="col-sm-1">
+        	<img src="/profile.png" class="rounded-img" height="50px" width="50px"></img>
+        	</div>
+        	<div class="col-sm-11">
+              <p class="post-title"><span class="post-owner"><a href="/user/<%= User.find(@p.user_id).username %>"><%= User.find(@p.user_id).username %></a></span> <span class="post-creation">- <%= @p.created_at.to_formatted_s(:short) %></span></p>
+              <p class="post-content"><%= @p.content %></p>
+            </div>
+        	<div class="col-sm-12">
+        	<p class="post-links">
+        		<i class="fa fa-comments g-links" aria-hidden="true"></i>
+        		<i class="fa fa-retweet g-links" aria-hidden="true"></i>
+        	    <i class="fa fa-heart g-links" aria-hidden="true"></i>
+        	    <i class="fa fa-ellipsis-h g-links" aria-hidden="true"></i>
+        	    <a href="" style="font-size: 12px;">View Conversation</a>
+        	</p>
+        	</div>
+	    </div>
+        </div>
+<% end %>
+<div class="card post-panel">
+        <div class="card-body row">
+        <div class="col-sm-12">
+        	<center>
+        		<a href="#top"><p style="opacity: .8; color: grey;">Back to Top <i class="fa fa-arrow-up" aria-hidden="true"></i></p></a>
+        	</center>
+        </div>
+	    </div>
+        </div>
+	</div>
+	<div class="col-md-3">
+		<div class="card">
+        <div class="card-body">
+		<p style="opacity: 0.5; font-size: 90%">@2020 Twitter About Help Blog Status Jobs Terms Privacy Cookies Ads Info Brand Advertise Businesses Media Developers</p>
 	</div>
 </div>
-<% end %>
+	</div>
 </div>
+
+
+
+
+
